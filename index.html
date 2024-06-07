@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicatio Max Antivirus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 onclick="acidAttack()">Publicatio Max</h1>
+        <p>Your Ultimate Protection Against Digital Threats</p>
+        <button class="cta-button" onclick="scrollFeatures()">Features</button>
+        <button class="cta-button">Get Started</button>
+        <button class="cta-button">Learn More</button>
+    </header>
+
+    <main>
+        <section class="features">
+            <h2>Features</h2>
+            <div id="feature-content">
+                <div class="feature-item">
+                    <h3>Real-Time Protection</h3>
+                    <p>Stay safe with real-time scanning and protection.</p>
+                    <button class="info-button" onclick="openModal()">More Info</button>
+                </div>
+                <div class="feature-item">
+                    <h3>Easy to Use</h3>
+                    <p>Simple and intuitive interface for everyone.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Frequent Updates</h3>
+                    <p>Regular updates to keep up with the latest threats.</p>
+                </div>
+            </div>
+            <div id="scroll-content"></div>
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 onclick="triggerAttack()">Real-Time Protection</h2>
+            <p>Real-Time Protection continuously monitors your device for threats and automatically neutralizes them, ensuring that your data and privacy are always safeguarded.</p>
+            <div id="cannon"></div>
+        </div>
+    </div>
+
+    <div id="virus1" class="virus"></div>
+    <div id="virus2" class="virus"></div>
+    <div id="virus3" class="virus"></div>
+    <div id="virus4" class="virus"></div>
+
+    <div id="password-popup" class="password-popup">
+        <p>Your Password: <span id="password"></span></p>
+    </div>
+
+    <div id="hacked-text" class="hacked-text">NEDOHACKERS</div>
+
+    <footer>
+        <p>&copy; 2024 Publicatio Max. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
